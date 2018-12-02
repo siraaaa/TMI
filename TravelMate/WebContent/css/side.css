@@ -10,16 +10,16 @@ table #sideMenu #welcomeMsg{
 	height : 100px;
 }
 
-table #sideMenu .side{
+ table #sideMenu .side{
 	height : 60px;
 	text-align : center;
-	background-color: #74D36D;
-	color : white;
+	background-color: #FFFFFF;
+	color : #000000;
 	font-size: 16px; 
 	font-weight:bold;
 }
 
 
 table #sideMenu .side:hover{
-	background-color :#FFE400;
-}
+	color :#24468A;
+} 

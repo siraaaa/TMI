@@ -68,7 +68,9 @@
 	    <input type="address" class="form-control" id="address" placeholder="주소" >
 	  </div>
 
+	<a href="/jsp/registerStyleForm.jsp">
 	<button type="button" id="btn_next" class="btn btn-danger btn-lg">다음단계</button>
+	</a>
 	</form>
 </div>
 </section>

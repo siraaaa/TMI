@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
-<%@ include file="includeTop.jsp" %>
+<%@ include file="/jsp/includeTop.jsp" %>
 <head>
 
 <style>
@@ -78,9 +78,9 @@
 }
 
 .social_img{
-	height:20px;
-	padding : 10px;
+	height : 4%;
 }
+
 
 </style>
 </head>
@@ -117,10 +117,10 @@
 <!-- 간편 로그인 -->
 <div class="simple_login">
 	<div class="social_login">
-		<a href="javascript:void(0)" class="btn_naver_login">
-		<img class="social_img" src="images/naver_btn.jpg"/>네이버 계정으로 로그인</a> &nbsp;|
-		<a href="javascript:void(0)" class="btn_fb_login">
-		<img class="social_img" src="/images/facebook_btn.jpg"/>페이스북 계정으로 로그인</a>
+		<a class="btn_naver_login">
+		<img class="social_img" src="/images/naver_btn.jpg"/> &nbsp;네이버 계정으로 로그인</a> &nbsp;|
+		<a class="btn_fb_login">
+		<img class="social_img" src="/images/facebook_btn.png"/> &nbsp;페이스북 계정으로 로그인</a>
 	</div>
 	<ul class="login_guide">
 		<li>

@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <head>
-<link rel="stylesheet" href="css/side.css" type="text/css">
+<!-- <link rel="stylesheet" href="/css/side.css" type="text/css"> -->
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 <script src="http://code.jquery.com/jquery-latest.min.js"></script>
@@ -79,17 +79,23 @@
 <!-- main 상단  -->
 <table class = "topBar">
 <tr>
-	<td><a href ="jsp/index.jsp">
+	<td><a href ="/jsp/index.jsp">
     <div style="margin-left:30;">
         <%-- <img border="0" height="170" src="<c:url value='images/TMI_logo.png' />" /> --%>
-     <img border="0" height="170" src="images/TMI_logo.png" /> 
+     <img border="0" height="170" src="/images/TMI_logo.png" /> 
      </div></a>
     </td>
     
     <td style="text-align:center">
     <div id="log">
-     <button class="btn_top btn-default btn-sm">로그인 </button>
+     <a href="/jsp/login.jsp">
+	     <button class="btn_top btn-default btn-sm">
+	           로그인 
+	     </button>
+	 </a>
+	 <a href="/jsp/registerForm.jsp">
      <button class="btn_top btn-default btn-sm">회원가입</button>
+     </a>
     </div>
     </td>
 </tr>

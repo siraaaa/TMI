@@ -1,6 +1,6 @@
-<%@ include file="includeTop.jsp" %>
+<%@ include file="/jsp/includeTop.jsp" %>
 <head>
-<link rel="stylesheet" href="css/side.css" type="text/css">
+<link rel="stylesheet" href="/css/side.css" type="text/css">
 </head>
 
 <table style="border:none;border-collapse:collapse;width:100%">
@@ -12,7 +12,7 @@
       <td>
         <c:if test="${!empty userSession.account}">
 		<b><i><font size="4" color="RED">Welcome ${userSession.account.firstName}!</font></i></b>
-         </c:if>Welcome <br> DBP! &nbsp;
+         </c:if><br> DBP! &nbsp;
         </td>
         </tr>
         
@@ -38,4 +38,4 @@ map
 </table>
 
 
-<%@ include file="includeBottom.jsp" %>
+<%@ include file="/jsp/includeBottom.jsp" %>
